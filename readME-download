@@ -1,0 +1,8 @@
+About download:
+
+Use Github download button to download all files as ZIP package.
+Then, extract to any local you prefer.
+This way, all files properties are preserved.
+
+Using Copy, Paste, FAT file systems for example, may change some properties
+of files, and may render the file with different behavior than the original...
