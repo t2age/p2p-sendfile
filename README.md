@@ -36,8 +36,22 @@ P2P Send File GUI App Tutorial
 **3. P2P Send File**  
   
   
-**This tutorial/demo IS LIMITED to send files LESS THAN 1MB in size!**  
-If you want to send files BIGGER THAN 1MB, please use the WL-Seeder/WL-Getter.  
+---
+   
+**The basic tutorial/demo (inside "script/") IS LIMITED to send files LESS THAN 1MB in size!**  
+  
+If you want to send files BIGGER THAN 1MB, you can use the second tutorial (inside "scripts-4BIGfile").  
+  
+Following 2 pictures show the "SendBIGFile" version (inside "scripts-4BIGfile").  
+  
+<img src="img/peer-A-sendBIG.png" width=640px;/>
+  
+---
+<img src="img/peer-B-sendBIG.png" width=640px;/>
+  
+---
+  
+Also, you can use the WL-Seeder/WL-Getter, if you want to send BIG files...    
 https://github.com/t2age/wl-seeder-getter  
   
   

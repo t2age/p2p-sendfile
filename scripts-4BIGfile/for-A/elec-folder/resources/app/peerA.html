@@ -1,0 +1,68 @@
+<html style="background-color: #EEAAAA">
+
+<style> 
+	button{font-size: 20px;}
+	table{font-size: 20px;}
+	input[type="text"]{font-size: 20px;}
+</style>
+
+<script src="wRTC-A-v0.8.js"></script>
+
+<body style="font-size: 20px;">
+	<H3>WebRTC Peer A SendBIGFile</H3>
+	<textarea id="display" rows="5" cols="80" style="background-color: #000000; color: #00FF00;">textarea "display" here: </textarea>
+	<hr>
+	
+	<button type="button" id="sendBigFile" onClick="sendBigFile('universe.jpg')">Send Big File</button>
+
+	<div>	
+		<table>
+			<tr>
+				<td>Chunk Size (in bytes) : </td>
+				<td><input type="text" id="chunkSize" value="" size="35" /></td>
+			</tr>
+
+			<tr>
+				<td>Delay between Chunks (ms) : </td>
+				<td><input type="text" id="delayChunk" value="" size="35" /></td>
+			</tr>
+
+			<tr>
+				<td>Max Pack-In-Transit : </td>
+				<td><input type="text" id="maxPackInTransit" value="" size="35" /></td>
+			</tr>
+
+			<tr>
+				<td>Name of File to Send : </td>
+				<td><input type="text" id="fileName" size="35" /></td>
+			</tr>
+
+			<tr>
+				<td>File Size : </td>
+				<td><input type="text" id="fileSize" size="35" /></td>
+			</tr>
+
+			<tr>
+				<td>Number of Packs : </td>
+				<td><input type="text" id="sendPackNumber" size="35" /></td>
+			</tr>
+			
+			<tr>
+				<td>Status : </td>
+				<td><input type="text" id="sendStatus" size="35" /></td>			
+			</tr>
+		</table>
+	</div>
+			
+	<hr>
+
+	<div>
+		<div class="label">Send progress: </div>
+		<progress id="mysendProgress" max="0" value="0" style="width: 500px; height: 25px;"></progress>
+	</div>	
+	
+	<hr>
+	Will send the file "universe.jpg", which is inside the folder "dataOUT"...
+</body>
+
+</html>

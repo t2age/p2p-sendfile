@@ -1,0 +1,21 @@
+
+Peer A (the sender)
+------------------------------------------------
+ELECTRON-FOLDER
+               dataOUT	(file universe.jpg is here)
+               resources
+                        app  (scripts A here)
+               ...
+               ...
+------------------------------------------------
+
+
+Peer B (the receiver)
+------------------------------------------------
+ELECTRON-FOLDER
+               dataIN  (the inbox)
+               resources
+                        app  (scripts B here)
+               ...
+               ...
+------------------------------------------------
